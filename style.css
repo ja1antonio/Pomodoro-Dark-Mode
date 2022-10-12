@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'roboto', sans-serif;
+  color: rgba(50, 50, 56, 1);
+}
+
+.page {
+  display: flex;
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 380px;
+  justify-content: flex-start;
+}
+
+.timer {
+  margin: 30px 0px;
+}
+
+span {
+  font-size: 7.5rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sounds {
+  width: 380px;
+  height: 380px;
+}
+
+.btnSound {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  border: 0;
+  background: 0;
+  padding: 10px;
+}
+
+.darkMode {
+  position: absolute;
+  left: 92.19%;
+  right: 5%;
+  top: 8.89%;
+  bottom: 86.11%;
+}
+@media only screen and (max-width: 920px) {
+  .page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    height: 280px;
+  }
+
+  .sound {
+    width: 120px;
+    height: 120px;
+  }
+
+  .darkMode {
+    left: 50%;
+    top: 0;
+
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  span {
+    font-size: 6rem;
+  }
+
+  main {
+    height: 280px;
+  }
+
+  .sound {
+    width: 120px;
+    height: 120px;
+  }
+
+  .darkMode {
+    left: 50%;
+    top: 0;
+
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/*DARK MODE*/
+.pageDark {
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+
+.btnControlDark {
+  fill: white;
+}
+
+.bg-button.darkmode {
+  fill: #29292e;
+}
+
+.colorControl.darkmode {
+  fill: #ffffff;
+}
+
+.icon.darkmode {
+  fill: #ffffff;
+}
+
+.hide {
+  display: none;
+}
+
+.bg-button.active {
+  fill: #02799d;
+}
+
+.bg-button.active.darkmode {
+  fill: #0a3442;
+}
+
+.iconActive {
+  fill: white;
+}
