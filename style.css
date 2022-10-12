@@ -69,6 +69,7 @@ button {
   .page {
     display: flex;
     flex-direction: column;
+    padding-top: 10px;
   }
 
   main {
@@ -94,6 +95,7 @@ button {
   .page {
     display: flex;
     flex-direction: column;
+    padding-top: 10px;
   }
 
   span {
