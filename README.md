@@ -24,4 +24,4 @@ Ele foi criado em um **desafio** da **5º Semana** do Treinamento do **Explorer 
 
 * https://www.linkedin.com/in/jo%C3%A3o-ant%C3%B4nio-72ba7b245/
 * https://github.com/ja1antonio
-* https://www.instagram.com/ja1_antonio/
+
